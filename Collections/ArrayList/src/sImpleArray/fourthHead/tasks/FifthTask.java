@@ -1,4 +1,4 @@
-package sImpleArray.fourthHead;
+package sImpleArray.fourthHead.tasks;
 
 import java.io.BufferedReader;
 import java.io.IOException;
