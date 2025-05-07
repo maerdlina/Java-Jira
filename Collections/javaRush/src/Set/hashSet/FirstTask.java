@@ -1,4 +1,4 @@
-package mapAndSet.tasks;
+package Set.hashSet;
 
 import java.util.HashSet;
 import java.util.List;

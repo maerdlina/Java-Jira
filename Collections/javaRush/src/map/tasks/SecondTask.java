@@ -1,4 +1,4 @@
-package mapAndSet.tasks;
+package map.tasks;
 
 import java.util.*;
 
