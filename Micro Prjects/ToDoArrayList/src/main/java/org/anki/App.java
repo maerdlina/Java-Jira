@@ -36,8 +36,6 @@ public class App
 
             }
 
-
-
         }
         for(Note s: notesList) System.out.println(s.toString());
     }
