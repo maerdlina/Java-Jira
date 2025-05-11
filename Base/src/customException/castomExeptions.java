@@ -1,4 +1,4 @@
-package exeptions;
+package customException;
 
 public class castomExeptions {
     public static void main(String[] args){
