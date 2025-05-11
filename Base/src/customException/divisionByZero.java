@@ -1,4 +1,4 @@
-package exeptions;
+package customException;
 
 public class divisionByZero extends ArithmeticException {
     public divisionByZero() {

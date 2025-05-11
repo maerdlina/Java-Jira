@@ -1,4 +1,4 @@
-package exeptions;
+package customException;
 
 public class Calculator {
     public static double divide(double dividend, double divisor) throws divisionByZero {
