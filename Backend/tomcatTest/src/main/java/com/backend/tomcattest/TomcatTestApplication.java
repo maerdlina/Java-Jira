@@ -2,12 +2,19 @@ package com.backend.tomcattest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class TomcatTestApplication {
+public class TomcatTestApplication extends SpringBootServletInitializer {
 
-	public static void main(String[] args) {
-		SpringApplication.run(TomcatTestApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(TomcatTestApplication.class, args);
+    }
+
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder){
+        return builder.sources(TomcatTestApplication.class);
+    }
 
 }
