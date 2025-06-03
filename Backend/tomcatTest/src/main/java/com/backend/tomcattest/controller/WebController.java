@@ -12,4 +12,8 @@ public class WebController {
     {
         return "Spring Boot Application running on Tomcat server!!";
     }
+    @GetMapping("/hello")
+    public String hello() {
+        return "<h2>Hello from Spring Controller</h2>";
+    }
 }
